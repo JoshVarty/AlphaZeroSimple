@@ -1,6 +1,7 @@
 # AlphaZeroSimple
 
 Blog: http://joshvarty.github.io/AlphaZero/
+
 Video: https://www.youtube.com/watch?v=62nq4Zsn8vc
 
 The absolute most basic example of AlphaZero and Monte Carlo Tree Search I could come up with. This implementation plays a game called Connect2:
