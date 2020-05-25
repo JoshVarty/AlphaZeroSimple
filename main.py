@@ -8,7 +8,6 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 args = {
     'batch_size': 64,
-    'num_simulations': 100,                         # Number of Monte Carlo simulations for each move
     'numIters': 500,                                # Total number of training iterations
     'numEps': 100,                                  # Number of full games (episodes) to run during each iteration
     'numItersForTrainExamplesHistory': 20,
