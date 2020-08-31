@@ -19,12 +19,9 @@ class Trainer:
 
         train_examples = []
         current_player = 1
-        episode_step = 0
         state = self.game.get_init_board()
 
         while True:
-            episode_step += 1
-
             canonical_board = self.game.get_canonical_board(state, current_player)
 
             self.mcts = MCTS(self.game, self.model, self.args)
