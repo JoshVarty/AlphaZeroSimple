@@ -40,7 +40,6 @@ class Connect2Game:
     def get_valid_moves(self, board):
         # All moves are invalid by default
         valid_moves = [0] * self.get_action_size()
-        b = np.copy(board)
 
         for index in range(self.columns):
             if board[index] == 0:
