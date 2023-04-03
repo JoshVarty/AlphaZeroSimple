@@ -1,4 +1,4 @@
-import torch
+
 import math
 import numpy as np
 
@@ -137,7 +137,7 @@ class MCTS:
 
         return root
 
-    def backpropagate(self, search_path, value, to_play):
+    def backup(self, search_path, value, to_play):
         """
         At the end of a simulation, we propagate the evaluation all the way up the tree
         to the root.
